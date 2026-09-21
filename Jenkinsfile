@@ -6,7 +6,7 @@ pipeline {
         stage('Clone GitHub Code') {
             steps {
                 git branch: 'main',
-                    url: 'http://3.80.115.176:8080/'
+                    url: 'https://github.com/Raghul-hub-star/devops.git'
             }
         }
 
