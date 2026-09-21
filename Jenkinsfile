@@ -28,7 +28,7 @@ pipeline {
                 sh '''
                     docker run -d \
                     --name my-app \
-                    -p 8080:80 \
+                    -p 8090:80 \
                     my-app:latest
                 '''
             }
